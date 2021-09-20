@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background: #888;
+}
+
+/* header */
+header {
+    background: #262626;
+}
+
+header .container {
+    display: flex;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 10px;
+    font-size: 54px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    margin: 0 0 0 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px 30px 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #888;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+@media (max-width: 360px) {
+    nav ul li {
+        padding: 15px 20px 10px 10px;
+    }
+}
+
+/* main */
+main {
+    padding: 0 10px;
+}
+
+section {
+    max-width: 768px;
+    padding: 10px;
+    margin: 10px auto;
+    background: #efefef;
+}
+
+section a {
+    text-decoration: none;
+    color: #9a957a;
+}
+
+section a:hover {
+    color: #413f4f;
+}
+
+h1 {
+    font-size: 32px;
+    color: #9a957a;
+}
+
+h2 {
+    font-size: 24px;
+    color: #9a957a;
+}
+
+p, ol {
+    margin: 10px;
+    color: #413f4f;
+}
+
+.main_text {
+    display: flex;
+    align-items: center;
+}
+
+.main_text img {
+    width: 100%;
+    height: 100%;
+}
+
+.imp {
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background: #262626;
+
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.rs img{
+    width: 50%;
+    padding: 10px;
+}
+
+.gh {
+    padding: 15px 10px 10px 10px;
+    font-weight: bold;
+    color: #888;
+}
+
+.gh a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #888;
+
+}
+
+.gh a:hover {
+    color: #fff;
+}
+
+.year {
+    padding: 10px;
+    text-align: center;
+    background: #000;
+    font-weight: bold;
+    color: #fff;
+}
